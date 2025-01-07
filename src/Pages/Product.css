@@ -1,0 +1,568 @@
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+  }
+  .shopcategory-indexSort {
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+  }
+  .shopcategory-indexSort p span {
+    font-weight: 600;
+  }
+  .shopcategory-products {
+    /* margin: 20px 20px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 0.75fr 0.75fr 0.75fr 0.75fr;
+    row-gap: 80px;
+    gap: 30px;
+  }
+  .shopcategory-loadmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background: #f7bc70;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .shopcategory-loadmore {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: white;
+  }
+  .shopcategory-loadmore:hover {
+    background-color: #f7bc70; /* Couleur de fond au survol */
+    transform: scale(1.1); /* Zoom légèrement au survol */
+  }
+  @media (max-width: 1280px) {
+    .shopcategory-banner {
+      margin: 20px;
+      width: 90%;
+    }
+    .shopcategory-indexSort {
+      width: 90%;
+      margin: auto;
+    }
+    .shopcategory-sort {
+      padding: 5px 10px;
+      font-size: 12px;
+    }
+    .shopcategory-sort p {
+      font-size: 12px;
+    }
+    .shopcategory-products {
+      width: 90%;
+      margin: 10px auto;
+      row-gap: 40px;
+    }
+    .shopcategory-products .item {
+      margin: auto;
+    }
+    .shopcategory-loadmore {
+      margin: 100px auto;
+      width: 200px;
+      height: 60px;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 800px) {
+    .shopcategory-banner {
+      width: 95%;
+    }
+    .shopcategory-indexSort {
+      width: 95%;
+    }
+  
+    .shopcategory-loadmore {
+      margin: 60px auto;
+      width: 150px;
+      height: 40px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 500px) {
+    .shopcategory-banner {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .maintenance .site-nav,
+  .maintenance .link-to-nav,
+  .maintenance .link-to-cart,
+  .maintenance .mobile-nav,
+  .maintenance .footer-links:first-of-type,
+  .maintenance .footer-right {
+    display: none !important;
+  }
+  .error-404 {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  @media screen and (min-width: 768px) {
+    .error-404 {
+      padding-bottom: 10rem;
+      padding-top: 10rem;
+    }
+  }
+  .error-404 h1 {
+    margin-bottom: 1rem;
+  }
+  .error-404 p {
+    margin-bottom: 1.5rem;
+  }
+  .error-404 .button {
+    margin: 0 auto;
+  }
+  #fit-guide {
+    margin-top: -2rem;
+    padding-top: 2rem;
+  }
+  #fit-guide .fit-title {
+    margin-bottom: -1rem;
+  }
+  #fit-guide .fit-title span {
+    background: #fff none repeat scroll 0 0;
+    display: table;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 2;
+  }
+  #fit-guide .shop-fit {
+    color: #aaa;
+    font-weight: 500;
+    margin-left: 0.45rem;
+    opacity: 0.5;
+    transition: all 250ms ease-out 0s;
+    vertical-align: middle;
+  }
+  #fit-guide .shop-fit .arrow {
+    display: inline;
+    margin-left: -0.1rem;
+  }
+  #fit-guide .shop-fit:hover {
+    color: #d9d9d9;
+    transition: all 200ms ease-out 0s;
+  }
+  #fit-guide .fit-nav-outer {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    margin: 0 auto 2rem;
+    padding-top: 1rem;
+    width: 95%;
+  }
+  @media screen and (min-width: 768px) {
+    #fit-guide .fit-nav-outer {
+      padding-top: 1.5rem;
+      width: 77%;
+    }
+  }
+  #fit-guide .fit-nav-inner {
+    position: relative;
+    text-align: center;
+    top: 0.35rem;
+  }
+  #fit-guide .fit-nav-inner h5 {
+    margin-right: 0.6rem;
+  }
+  #fit-guide .fit-nav-inner h5,
+  #fit-guide .fit-nav-inner .fit-nav {
+    display: inline-block;
+  }
+  #fit-guide .fit-nav-inner .fit-nav li {
+    display: inline-block;
+  }
+  #fit-guide .fit-nav-inner .fit-nav li::after {
+    color: #ddd;
+    content: "–";
+    display: inline-block;
+    margin: 0 0.25rem;
+  }
+  #fit-guide .fit-nav-inner .fit-nav li:last-of-type::after {
+    display: none;
+  }
+  #fit-guide .fit-nav-inner .fit-nav a span {
+    color: #aaa;
+  }
+  #fit-guide .fit-nav-inner .fit-nav a:hover span {
+    color: #d9d9d9;
+  }
+  #fit-guide .fit-nav-inner .fit-nav a.active span {
+    color: #333;
+  }
+  #fit-guide .fg-slider {
+    margin-bottom: 1rem;
+  }
+  @media screen and (max-width: 767px) {
+    #fit-guide .fit-view > li {
+      margin-bottom: 1.5rem;
+    }
+    #fit-guide .fit-view > li:nth-child(2n) {
+      margin-right: 0;
+    }
+    #fit-guide .fit-view > li:nth-child(2n + 1) {
+      clear: left;
+    }
+  }
+  #fit-guide .fit-view > li:hover .shop-fit {
+    opacity: 1;
+  }
+  #fit-guide .fit-view h1 {
+    margin-bottom: 0.5rem;
+  }
+  @media screen and (max-width: 767px) {
+    #fit-guide .fit-view h1 {
+      font-size: 0.8125rem;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    #fit-guide .fit-view h1 {
+      font-size: 0.9375rem;
+    }
+  }
+  #fit-guide .fit-view ul {
+    color: #979797;
+    line-height: 1.2;
+  }
+  #fit-guide .fit-view ul li {
+    margin-bottom: 0;
+  }
+  #anatomy {
+    margin-top: 4rem;
+    padding-top: 2rem;
+  }
+  #anatomy .anatomy-inner {
+    /* background-color: #c6e0f0; */
+    overflow: hidden;
+    position: relative;
+  }
+  #anatomy .anatomy-contain {
+    margin: 0 auto;
+    max-width: 1600px;
+    position: relative;
+  }
+  #anatomy .anatomy-title {
+    margin: 0 auto 1rem;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-title {
+      margin: 0 auto 2rem;
+    }
+  }
+  #anatomy .anatomy-hover {
+    background-color: #d9d9d9;
+    border: 2px solid transparent;
+    border-radius: 1.05rem;
+    height: 2.1rem;
+    margin-left: -1.05rem;
+    margin-top: -1.05rem;
+    position: absolute;
+    transition: all 250ms ease-out 0s;
+    width: 2.1rem;
+    z-index: 1;
+  }
+  #anatomy .anatomy-hover .icon {
+    display: block;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+  }
+  #anatomy .anatomy-hover .icon svg {
+    display: block;
+    transition: all 250ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover .icon svg > path {
+    fill: #fff;
+    transition: fill 250ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover:hover {
+    background-color: #d9d9d9;
+    transition: all 200ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover:hover .icon svg > path {
+    fill: #d9d9d9;
+    transition: fill 200ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover::before {
+    border-top: 2px solid #d9d9d9;
+    content: "";
+    display: none;
+    margin-top: -2px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transition: opacity 250ms ease-out 0s;
+    width: 1000%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-hover::before {
+      display: block;
+    }
+  }
+  #anatomy .anatomy-hover.active {
+    background-color: transparent;
+    border: 2px solid #d9d9d9;
+    transition: all 400ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover.active::before {
+    opacity: 1;
+    transition: opacity 400ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover.active .icon svg {
+    transform: rotateZ(135deg) scale(0.85);
+    transition: all 400ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover.active .icon svg > path {
+    fill: #d9d9d9;
+    transition: fill 400ms ease-out 0s;
+  }
+  #anatomy .anatomy-hover[data-hover="patch"] {
+    left: 63%;
+    top: 19.25%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-hover[data-hover="patch"] {
+      left: 50.3%;
+    }
+  }
+  #anatomy .anatomy-hover[data-hover="patch"]::before {
+    left: 100%;
+  }
+  #anatomy .anatomy-hover[data-hover="denim"] {
+    left: 77%;
+    top: 89%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-hover[data-hover="denim"] {
+      left: 6%;
+      top: 40%;
+    }
+  }
+  #anatomy .anatomy-hover[data-hover="denim"]::before {
+    left: 100%;
+  }
+  #anatomy .anatomy-hover[data-hover="waistband"] {
+    left: 37%;
+    top: 8%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-hover[data-hover="waistband"] {
+      left: 56%;
+      top: 40%;
+    }
+  }
+  #anatomy .anatomy-hover[data-hover="waistband"]::before {
+    right: 100%;
+  }
+  #anatomy .anatomy-hover[data-hover="pocketbags"] {
+    left: 80%;
+    top: 25%;
+  }
+  #anatomy .anatomy-hover[data-hover="pocketbags1"] {
+    left: 83%;
+    top: 25%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-hover[data-hover="pocketbags"] {
+      left: 59%;
+      top: 80.5%;
+    }
+    #anatomy .anatomy-hover[data-hover="pocketbags1"] {
+        left: 62%;
+        right: 100%;      }
+  }
+  #anatomy .anatomy-hover[data-hover="pocketbags"]::before {
+    left: 50%;
+  }
+  #anatomy .anatomy-hover[data-hover="pocketbags1"]::before {
+    left: 100%;
+  }
+  #anatomy .anatomy-hover[data-hover="details"] {
+    left: 50%;
+    top: 80.5%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-hover[data-hover="details"] {
+      left: 45%;
+    }
+  }
+  #anatomy .anatomy-hover[data-hover="details"]::before {
+    right: 100%;
+  }
+  .anatomy-info{
+    color: #d9d9d9 !important;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info-contain {
+
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 27%;
+      z-index: 2;
+    }
+    #anatomy .anatomy-info-contain.right {
+      right: 2rem;
+    }
+    #anatomy .anatomy-info-contain.right .anatomy-info {
+      border-left: 2px solid #d9d9d9;
+      padding-left: 1rem;
+    }
+    #anatomy .anatomy-info-contain.left {
+      left: 2rem;
+    }
+    #anatomy .anatomy-info-contain.left .anatomy-info {
+      border-right: 2px solid #d9d9d9;
+      padding-right: 1rem;
+    }
+  }
+  #anatomy .anatomy-onboarding {
+    bottom: 1.5rem;
+    left: 0;
+    position: absolute;
+  }
+  #anatomy .anatomy-info {
+    background-color: #c6e0f0;
+    bottom: 1rem;
+    display: none;
+    left: 1rem;
+    padding: 1.5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    z-index: 3;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info {
+      background-color: transparent;
+      bottom: auto;
+      left: 0;
+      padding: 0;
+      right: auto;
+      top: 0;
+      transform: translateY(-2%);
+      transition-duration: 400ms;
+      transition-property: transform;
+      transition-timing-function: ease-out;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info[data-hover="pocketbags"] {
+      top: 22.5%;
+    }
+    #anatomy .anatomy-info[data-hover="pocketbags1"] {
+        top: 22.5%;
+      }
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info[data-hover="details"] {
+      top: 27%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info[data-hover="denim"] {
+      bottom: 13%;
+      top: auto;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info[data-hover="waistband"] {
+      top: 6.5%;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info[data-hover="patch"] {
+      top: 8%;
+    }
+  }
+  #anatomy .anatomy-info.active {
+    transform: translateY(0px);
+  }
+  #anatomy .anatomy-info h6 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  @media screen and (min-width: 1280px) {
+    #anatomy .anatomy-info h6 {
+      font-size: 0.75rem;
+    }
+  }
+  #anatomy .anatomy-info .close-anatomy {
+    display: table;
+    margin-top: 0.5rem;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info .close-anatomy {
+      display: none;
+    }
+  }
+  #anatomy .anatomy-info .x-close {
+    background-image: url("https://flibustierparis.com/cdn/shop/files/hoodie-grey-front_1800x1800.jpg?v=1714488497");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    display: block;
+    height: 1.5rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0.75rem;
+    text-indent: 101%;
+    top: 0.75rem;
+    white-space: nowrap;
+    width: 1.5rem;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-info .x-close {
+      display: none;
+    }
+  }
+  #anatomy .anatomy-img {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-img {
+      padding-bottom: 0;
+      position: static;
+    }
+  }
+  #anatomy .anatomy-img img {
+    display: block;
+  
+    left: -47%;
+    margin: 0 auto;
+    max-width: none;
+    position: absolute;
+    top: 10px;
+    width: 400px;
+    height: auto;
+  }
+  @media screen and (min-width: 1024px) {
+    #anatomy .anatomy-img img {
+      height: auto;
+      left: auto;
+      max-width: 100%;
+      position: static;
+      top: auto;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "name": "hiba-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@splinetool/react-spline": "^4.0.0",
+    "@studio-freight/lenis": "^1.0.42",
+    "animejs": "^3.2.2",
+    "bootstrap": "^5.3.3",
+    "gsap": "^3.12.5",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.7.1",
+    "lenis": "^1.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "scrollmagic": "^2.0.8",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  }
+}
