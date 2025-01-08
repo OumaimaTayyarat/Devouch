@@ -1514,7 +1514,7 @@ const ThreeScene = () => {
         </div>
     </div>
 
-    <div id="loading">Chargement ...</div>
+    <div id="loading">Version uniquement pour ordinateur ...</div>
     <div className="logo-container2">
       <img
         src={soundEnabled ? "/soundenb.svg" : "/!soundenb.svg"}
