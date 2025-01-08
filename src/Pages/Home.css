@@ -230,7 +230,7 @@ display: none;
    background-repeat: no-repeat;
    background-position: center;
    background-size: 36px 36px;
-   background-image: url(/close (2).svg);
+   background-image: url("/close (2).svg");
    cursor: pointer;
    z-index: 11;
  }
@@ -326,7 +326,7 @@ display: none;
    background-repeat: no-repeat;
    background-position: center;
    background-size: 36px 36px;
-   background-image: url(/close (2).svg);
+   background-image: url("/close (2).svg");
    cursor: pointer;
    z-index: 11;
  }
@@ -417,7 +417,7 @@ display: none;
    background-repeat: no-repeat;
    background-position: center;
    background-size: 36px 36px;
-   background-image: url(/close (2).svg);
+   background-image: url("/close (2).svg");
    cursor: pointer;
    z-index: 11;
  }
